@@ -3,6 +3,7 @@
 }
 body{
     width: 100%;
+    max-width: 1200px;
 }
 header{
     padding:10px;
@@ -29,7 +30,7 @@ ul{
     justify-content: flex-end;
 
 }
-.menu_icon{
+.menu-icon{
     display:none;
 }
 li{
@@ -48,7 +49,7 @@ a:hover{
     display:flex;
     background-color: #009999;
 }
-.banner_img{
+.banner-img{
     width: 60%;
     margin: 0 auto;
     
@@ -74,14 +75,14 @@ section{
     
     justify-content: center;
 }
-.movie1,.movie2,.movie3,.movie4{
+.movie{
     flex-direction: column;
     width: 60%;
     margin:30px;
     justify-content: center;
     
 }
-.movie_img{
+.movie-img{
 
    width: 100%;
    height: 300px;
@@ -111,19 +112,19 @@ footer{
     a{
         display:none;
     }
-    .menu_icon{
+    .menu-icon{
         width: 10%;
         display:flex;
         justify-content: flex-end;
     }
 
-    .menu_btn{
+    .menu-btn{
         border:0;
         background-color: white;
         
     }
 
-    .movie_img{
+    .movie-img{
 
         width: 100%;
         height: 100px;
@@ -140,17 +141,17 @@ footer{
     a{
         display:none;
     }
-    .menu_icon{
+    .menu-icon{
         width: 15%;
         display:flex;
         justify-content: flex-end;
     }
-    .menu_btn{
+    .menu-btn{
         border:0;
         background-color: white;
         
     }
-    .banner_img{
+    .banner-img{
         width: 100%;
        
         
@@ -174,14 +175,14 @@ footer{
         
         justify-content: center;
     }
-    .movie1,.movie2,.movie3,.movie4{
+    .movie{
         flex-direction: column;
         width: 60%;
         margin: 10px auto;
         justify-content: center;
         
     }
-    .movie_img{
+    .movie-img{
     
        width: 100%;
        height: auto;
