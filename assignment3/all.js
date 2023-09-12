@@ -20,15 +20,15 @@ function calculate(data) {
     discount: 0.1,
     products: [
       {
-        name: "产品 1",
+        name: "Product 1",
         price: 100
       },
       {
-        name: "产品 2",
+        name: "Product 2",
         price: 700
       },
       {
-        name: "产品 3",
+        name: "Product 3",
         price: 250
       }
     ]
