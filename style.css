@@ -148,7 +148,7 @@ h3{
 }
 .more-movie.active{
     
-    /* padding: 0px 60px 90px 60px; */
+    padding: 0px 60px 90px 60px; 
     display:grid;
     grid-template-columns:  auto auto ;
     grid-template-columns:  auto auto ;
