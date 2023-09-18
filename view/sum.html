@@ -28,10 +28,10 @@
             theResult.addEventListener('click', () => {
                 const number = entry.value;
     
-                if (!number) {
-                    result.textContent = empty;
-                    return;
-                }
+                // if (!number) {
+                //     result.textContent = empty;
+                //     return;
+                // }
     
                 fetch(`/getData?number=${number}`)
                     .then(response => response.text())

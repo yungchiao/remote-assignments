@@ -5,6 +5,9 @@ const app = express();
 
 app.use(express.static('view'));
 
+app.get('/', (req, res) => {
+  res.send('Welcome to my server!');
+});
 
 app.get('/getData', (req, res) => {
     const number = req.query.number;
