@@ -46,8 +46,9 @@ h1{
 }
 
 .repo-item{
-    justify-items: center;
-    
-    
-    
+    justify-items: center;  
+}
+
+.repo-item hr {
+  border-color:1px solid #ccc;
 }
