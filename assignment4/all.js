@@ -5,8 +5,8 @@ const moreButton = document.getElementById('load-more');
 let nowPage = 1; 
 
 
-function fetchRepos(page) {
-    const url = `https://api.github.com/orgs/facebook/repos?per_page=5&page=${page}`;
+function fetchRepos(nowPage) {
+    const url = `https://api.github.com/orgs/facebook/repos?per_page=5&page=${nowPage}`;
 
     return fetch(url)
         .then(response => response.json())
@@ -43,4 +43,11 @@ moreButton.addEventListener('click',()=> {
             });
         });
 });
+
+fetchRepos(nowPage)
+        .then(data => {
+           data.forEach(repo => {
+                render(repo);
+            });
+        });
 
