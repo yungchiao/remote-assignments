@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node server.js", 
     "build": "if [ \"$npm_lifecycle_event\" != \"build\" ]; then npm run build; fi",
-    "deploy": "git add . && git commit -m 'Add your commit message here' && git push origin main",
+    "deploy": "git add . && git commit -m 'Add your commit message here' && git push origin gh-pages",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
