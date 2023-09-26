@@ -1,10 +1,12 @@
 {
+  "homepage":"https://yungchiao.github.io/remote-assignments/week3-4/",
   "name": "week3-4",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy":"gh-pages -d views -e week3-4"
   },
   "keywords": [],
   "author": "",
